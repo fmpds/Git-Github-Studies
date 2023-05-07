@@ -9,16 +9,16 @@ You can download git from: https://www.git-scm.com/
 git config --user.name "Your Name"
 git config --user.email "your_email@example.com"
 
-####Get documentation about of the command:
+#### Get documentation about of the command:
 git command -h
 
-####Init a repo
+#### Init a repo
 git init
 
-####Get repo status
+#### Get repo status
 git status
 
-####Track and untrack files
+#### Track and untrack files
 
 - track:
 git add filename
@@ -27,10 +27,10 @@ git add filename
 git rm --cached filename
 
 
-####Commit
+#### Commit
 git commit -m "message about the change"
 
-####Change files and view difference
+#### Change files and view difference
 git diff
 
 You don't want to commit the differences and want to restore
@@ -39,38 +39,38 @@ git restore --stagged filename
 You want to skip the tracking step and go straight to commit
 git commit -a -m "message about the change"
 
-####Delete files
+#### Delete files
 git rm "filename"
 
 ####Restore file
 git restore "filename"
 
-####Rename file
+#### Rename file
 git mv "oldfilename" "newfilename"
 
-####View commit history with git log
+#### View commit history with git log
 git log --oneline
 
-####Amend commit
+#### Amend commit
 git commit -a -m "message corrected" --amend
 
-####View changes in commits
+#### View changes in commits
 git log -p
 
-####Branches
- create a new branch
- git branch NameBranch
+#### Branches
+create a new branch
+git branch NameBranch
  
- see existent branchs
- git branch
+see existent branchs
+git branch
  
- switch to other branch
- git switch NameBranch
+switch to other branch
+git switch NameBranch
  
- ####Merge branches
- git merge -m "message for the merge" NameBranch
+#### Merge branches
+git merge -m "message for the merge" NameBranch
  
- ####Delete a branch
- git branch -d NameBranch
+#### Delete a branch
+git branch -d NameBranch
  
  
