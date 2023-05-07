@@ -72,5 +72,3 @@ git merge -m "message for the merge" NameBranch
  
 #### Delete a branch
 git branch -d NameBranch
- 
- 
