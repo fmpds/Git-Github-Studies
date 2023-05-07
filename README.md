@@ -42,7 +42,7 @@ git commit -a -m "message about the change"
 #### Delete files
 git rm "filename"
 
-####Restore file
+#### Restore file
 git restore "filename"
 
 #### Rename file
@@ -59,15 +59,19 @@ git log -p
 
 #### Branches
 create a new branch
+
 git branch NameBranch
  
 see existent branchs
+
 git branch
  
 switch to other branch
+
 git switch NameBranch
  
 #### Merge branches
+
 git merge -m "message for the merge" NameBranch
  
 #### Delete a branch
