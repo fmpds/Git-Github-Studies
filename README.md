@@ -5,7 +5,7 @@ You can download git from: https://www.git-scm.com/
 
 ### Basic commands
 
-####Config
+#### Config
 git config --user.name "Your Name"
 git config --user.email "your_email@example.com"
 
